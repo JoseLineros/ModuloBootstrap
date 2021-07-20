@@ -1,0 +1,15 @@
+.imagen {
+	max-height: 90vh;
+}
+
+.icon {
+	width: 30px;
+    margin-right: 5px;
+}
+
+
+
+/* usuarios */
+.mayusculas{
+    text-transform: uppercase;
+}
