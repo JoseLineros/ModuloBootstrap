@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container-fluid {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.imagen {
+	max-height: 80vh;
+}
+
+.img-portada {
+	width: 100%;
+	max-height: 150px;
+	background-size: cover;
+    opacity: .9;
+}
+
+.contenedor {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	background: rgb(68, 102, 121);
+	background: linear-gradient(
+		90deg,
+		rgba(68, 102, 121, 1) 0%,
+		rgba(21, 58, 179, 1) 100%,
+		rgba(0, 116, 139, 1) 100%
+	);
+}
+
+.centrado {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
